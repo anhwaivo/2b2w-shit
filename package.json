@@ -1,0 +1,46 @@
+{
+  "name": "2bored2wait",
+  "version": "3.3.0",
+  "description": "A proxy to wait out 2b2t.org's way too long queue.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node check.js"
+  },
+  "bin": "main.js",
+  "pkg": {
+    "assets": [
+      "config/default.json"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themoonisacheese/2bored2wait.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/themoonisacheese/2bored2wait/issues"
+  },
+  "homepage": "https://github.com/themoonisacheese/2bored2wait#readme",
+  "dependencies": {
+    "@folder/xdg": "^3.1.2",
+    "@rob9315/mcproxy": "^0.3",
+    "boxen": "^5.0.1",
+    "config": "^3.3.8",
+    "discord.js": "^13.7.0",
+    "everpolate": "0.0.3",
+    "luxon": "^3.0.4",
+    "minecraft-data": "^3",
+    "minecraft-protocol": "^1.35.1",
+    "mineflayer-antiafk": "^1.1.1",
+    "node-json-minify": "^3.0.0",
+    "open": "^8.0.7",
+    "particles.js": "^2.0.0",
+    "rss-parser": "^3.12.0",
+    "node-notifier": "^10.0.1"
+  },
+  "devDependencies": {
+    "nexe": "^4.0.0-beta.18"
+  }
+}
